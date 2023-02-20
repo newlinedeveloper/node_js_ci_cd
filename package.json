@@ -1,0 +1,24 @@
+{
+  "name": "node_js_ci_cd",
+  "version": "1.0.0",
+  "description": "Node js app deployment using Docker and Github actions",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newlinedeveloper/node_js_ci_cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newlinedeveloper/node_js_ci_cd/issues"
+  },
+  "homepage": "https://github.com/newlinedeveloper/node_js_ci_cd#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
